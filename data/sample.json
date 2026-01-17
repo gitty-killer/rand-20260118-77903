@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "id": "episode-01",
+      "name": "episode_01",
+      "category": "interview",
+      "amount": 13,
+      "score": 53,
+      "status": "ok"
+    },
+    {
+      "id": "episode-02",
+      "name": "episode_02",
+      "category": "solo",
+      "amount": 16,
+      "score": 56,
+      "status": "ok"
+    },
+    {
+      "id": "episode-03",
+      "name": "episode_03",
+      "category": "roundtable",
+      "amount": 19,
+      "score": 59,
+      "status": "ok"
+    },
+    {
+      "id": "episode-04",
+      "name": "episode_04",
+      "category": "bonus",
+      "amount": 22,
+      "score": 62,
+      "status": "needs_review"
+    },
+    {
+      "id": "episode-05",
+      "name": "episode_05",
+      "category": "unknown",
+      "amount": 25,
+      "score": 65,
+      "status": "ok"
+    },
+    {
+      "id": "episode-06",
+      "name": "episode_06",
+      "category": "solo",
+      "amount": 28,
+      "score": 68,
+      "status": "ok"
+    },
+    {
+      "id": "episode-07",
+      "name": "episode_07",
+      "category": "roundtable",
+      "amount": 31,
+      "score": 71,
+      "status": "ok"
+    },
+    {
+      "id": "episode-08",
+      "name": "episode_08",
+      "category": "bonus",
+      "amount": 34,
+      "score": 74,
+      "status": "needs_review"
+    },
+    {
+      "id": "episode-09",
+      "name": "episode_09",
+      "category": "interview",
+      "amount": 37,
+      "score": 77,
+      "status": "ok"
+    },
+    {
+      "id": "episode-10",
+      "name": "episode_10",
+      "category": "solo",
+      "amount": 40,
+      "score": 80,
+      "status": "ok"
+    },
+    {
+      "id": "episode-11",
+      "name": "episode_11",
+      "category": "roundtable",
+      "amount": 43,
+      "score": 83,
+      "status": "ok"
+    },
+    {
+      "id": "episode-12",
+      "name": "episode_12",
+      "category": "bonus",
+      "amount": 46,
+      "score": 86,
+      "status": "needs_review"
+    }
+  ],
+  "rules": {
+    "min_amount": 5,
+    "max_amount": 60,
+    "allowed_statuses": [
+      "ok",
+      "needs_review",
+      "blocked"
+    ]
+  },
+  "expected": {
+    "total_amount": 354,
+    "avg_score": 69.5,
+    "top_item": "episode-12",
+    "issue_count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "project_title": "Podcast Production Tracker",
+  "goal": "Monitor episode readiness and production load.",
+  "entity_name": "episode",
+  "amount_label": "minutes",
+  "score_label": "readiness_score",
+  "categories": [
+    "interview",
+    "solo",
+    "roundtable",
+    "bonus"
+  ]
+}
